@@ -1,0 +1,4 @@
+fileignoreconfig:
+- filename: lesson01/task_1.py
+  checksum: 9b0439362e6d778f403b3624966bd14f03ce9001c5b336969bb58b59114676fe
+version: "1.0"
