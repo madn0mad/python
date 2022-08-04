@@ -11,11 +11,11 @@
 Самая большая цифра в числе: 9
 """
 n = 0
-max = 0
+max_n = 0
 while n <= 0:
     n = int(input('Введите целое положительное число: '))
 while n % 10 > 0:
-    if n % 10 > max:
-        max = n % 10
+    if n % 10 > max_n:
+        max_n = n % 10
     n = n // 10
-print(max)
+print(max_n)

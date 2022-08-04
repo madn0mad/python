@@ -25,8 +25,10 @@ result = 'прибыль'
 if proceeds < costs:
     result = 'убыток'
     print(f'Финансовый результат - {result}. Его величина: {proceeds - costs}')
+elif proceeds == costs:
+    print(f'Прибыль за отчетный период равна нулю')
 else:
-    print(f'Финансовый результат - {result}. Его величина: {proceeds - costs}')
+    print(f'Финансовый результат - {result}. Ее величина: {proceeds - costs}')
     print(f'Рентабельность выручки = {(proceeds - costs) / proceeds}')
     stuff = int(input('Введите численность сотрудников фирмы: '))
     print(f'Прибыль фирмы в расчете на одного сотрудника = {(proceeds - costs) / stuff}')
