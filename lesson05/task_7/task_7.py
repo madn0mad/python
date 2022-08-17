@@ -35,4 +35,4 @@ with open('file7.txt', 'r', encoding='utf-8') as file7:
     res.append({'average_profit': sum_pr_plus // cnt})
 
 with open('file7.json', 'w', encoding='utf-8') as file7js:
-    file7js.write(json.dumps(res,indent=4))
+    file7js.write(json.dumps(res, indent=4))
